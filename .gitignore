@@ -1,7 +1,0 @@
-data/
-*__pycache__/
-inference/
-**results/
-.venv/
-plots/
-output/
