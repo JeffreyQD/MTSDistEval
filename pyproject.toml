@@ -11,6 +11,7 @@ dependencies = [
     "arch>=5.3.1",
     "cython>=3.0.10",
     "einops>=0.8.2",
+    "gdown>=6.5.1",
     "grailts>=0.1.0",
     "h5py>=3.16.0",
     "hmmlearn>=0.3.3",

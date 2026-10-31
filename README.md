@@ -73,6 +73,14 @@ Getting the data from:
 - The downsampled version of the UEA archive (used to evaluate elastic measures) can be downloaded from [here](https://drive.google.com/file/d/1gYPohWLcpYWuTf9mTdyDl0TfH2aXyfV5/view?usp=drive_link).
 - The TSB-AD-M archive can be downloaded from [here](https://www.thedatum.org/datasets/TSB-AD-M.zip), with the related repository available [here](https://github.com/TheDatumOrg/TSB-AD).
 
+Download and extract all three archives into `./data`:
+
+```shell
+bash scripts/download_datasets.sh
+```
+
+The script verifies and extracts each ZIP, then removes the compressed archive. It can be rerun safely; completed datasets are skipped.
+
 <h2 id="MTS"> 🏄‍♂️ Dive into MTS Distance Benchmark Study </h2>
 
 ### 1. Example Usage
